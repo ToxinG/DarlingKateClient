@@ -9,17 +9,20 @@ import android.support.annotation.Nullable;
 
 public class News {
 
-    public final @Nullable String newsImagePath; //кстати у этого изображения есть название?
+    public final @Nullable String newsImagePath;
+
+    public final @NonNull String newsUrl;
 
     public final @NonNull String newsTitle;
 
     public final @NonNull String newsArticle;
 
     public News(String newsImagePath,
+                String newsUrl,
                 String newsTitle,
                 String newsArticle) {
-        //TODO:
         this.newsImagePath = newsImagePath;
+        this.newsUrl = newsUrl;
         this.newsTitle = newsTitle;
         this.newsArticle = newsArticle;
     }

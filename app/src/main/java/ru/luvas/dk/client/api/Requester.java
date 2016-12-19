@@ -13,8 +13,8 @@ import java.net.URLConnection;
 import java.net.UnknownHostException;
 
 import ru.luvas.dk.client.api.answer.Answer;
+import ru.luvas.dk.client.api.answer.AnswerResolver;
 import ru.luvas.dk.client.api.answer.ErrorAnswer;
-import ru.luvas.dk.client.api.answer.OkAnswer;
 
 /**
  * Created by RinesThaix on 23.11.16.
@@ -61,15 +61,7 @@ public class Requester {
     public static LoadResult<? extends Answer> process(Params params) {
         try {
             JSONObject json = new JSONObject(process(BASE_URL + params.toString()));
-            if(json.has("error"))
-                return new LoadResult<>(LoadResult.ResultType.OK, new ErrorAnswer(json.getInt("id"), json.getString("text")));
-            OkAnswer answer;
-            String speech = json.getString("speech"), msg = json.getString("message");
-            if(json.has("photo"))
-                answer = new OkAnswer(speech, msg, json.getString("photo"));
-            else
-                answer = new OkAnswer(speech, msg);
-            return new LoadResult<>(LoadResult.ResultType.OK, answer);
+            return new LoadResult<>(LoadResult.ResultType.OK, AnswerResolver.getAnswer(json));
         }catch(Exception ex) {
             ex.printStackTrace();
             return new LoadResult<>(ex instanceof UnknownHostException ?

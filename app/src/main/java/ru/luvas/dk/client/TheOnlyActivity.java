@@ -20,7 +20,9 @@ import ru.luvas.dk.client.api.LoadResult;
 import ru.luvas.dk.client.api.Params;
 import ru.luvas.dk.client.api.answer.Answer;
 import ru.luvas.dk.client.api.answer.ErrorAnswer;
-import ru.luvas.dk.client.api.answer.OkAnswer;
+import ru.luvas.dk.client.api.answer.NewsAnswer;
+import ru.luvas.dk.client.api.answer.NotifyAnswer;
+import ru.luvas.dk.client.api.answer.SpeakAnswer;
 import ru.luvas.dk.client.utils.DroidLoader;
 import ru.luvas.dk.client.utils.Muter;
 import ru.luvas.dk.client.utils.Recognizer;
@@ -140,18 +142,26 @@ public class TheOnlyActivity extends AppCompatActivity
     public void onLoadFinished(Loader<LoadResult<? extends Answer>> loader, LoadResult<? extends Answer> data) {
         switch(data.getResultType()) {
             case OK: {
-                    Answer answer = data.getData();
-                    if(answer instanceof ErrorAnswer) {
-                        ErrorAnswer error = (ErrorAnswer) answer;
-                        setErrorState(error.getText());
-                    }else {
-                        OkAnswer ok = (OkAnswer) answer;
-                        Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
-                        setDisplayState(ok.getMessage());
-                        HashMap<String, String> params = new HashMap<>();
-                        params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
-                        tts.speak(ok.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
-                    }
+                Answer answer = data.getData();
+                if(answer instanceof ErrorAnswer) {
+                    setErrorState(((ErrorAnswer) answer).getText());
+                }else if(answer instanceof SpeakAnswer) {
+                    SpeakAnswer sa = (SpeakAnswer) answer;
+                    Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
+                    setDisplayState(sa.getMessage());
+                    HashMap<String, String> params = new HashMap<>();
+                    params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
+                    tts.speak(sa.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
+                }else if(answer instanceof NotifyAnswer) {
+                    NotifyAnswer na = (NotifyAnswer) answer;
+                    Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
+                    HashMap<String, String> params = new HashMap<>();
+                    params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
+                    tts.speak(na.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
+                }else if(answer instanceof NewsAnswer) {
+                    NewsAnswer na = (NewsAnswer) answer;
+                    //SHOW NewsFeedActivity
+                }
                 break;
             }case NO_INTERNET:
                 setErrorState("Что-то не так с Вашим интернет-соединением.");

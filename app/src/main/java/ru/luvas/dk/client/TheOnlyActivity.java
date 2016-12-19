@@ -154,7 +154,7 @@ public class TheOnlyActivity extends AppCompatActivity
                     tts.speak(sa.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
                 }else if(answer instanceof NotifyAnswer) {
                     NotifyAnswer na = (NotifyAnswer) answer;
-                    Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, na.getMessage(), Toast.LENGTH_SHORT).show();
                     HashMap<String, String> params = new HashMap<>();
                     params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
                     tts.speak(na.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);

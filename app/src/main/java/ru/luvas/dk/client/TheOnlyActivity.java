@@ -77,7 +77,7 @@ public class TheOnlyActivity extends AppCompatActivity
             int result = tts.setLanguage(locale);
 
             if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                setErrorState("Распознавание русского языка не поддерживается на вашем устройстве.");
+                setErrorState("Распознавание русского языка не поддерживается на Вашем устройстве.");
                 return;
             }
 
@@ -154,10 +154,10 @@ public class TheOnlyActivity extends AppCompatActivity
                     }
                 break;
             }case NO_INTERNET:
-                setErrorState("Что-то не так с вашим интернет-соединением.");
+                setErrorState("Что-то не так с Вашим интернет-соединением.");
                 break;
             case FAILURE:
-                setErrorState("Произошла непредвиденная ошибка. К сожалению, вы ничего не можете поделать с этим );");
+                setErrorState("Произошла непредвиденная ошибка. К сожалению, Вы ничего не можете поделать с этим );");
                 break;
         }
     }

@@ -31,8 +31,8 @@ public class AnswerResolver {
                     JSONArray array = answer.getJSONArray("news");
                     for(int i = 0; i < array.length(); ++i) {
                         JSONObject json = array.getJSONObject(i);
-                        newsList.add(new News(json.getString("photo_url"), json.getString("news_url"),
-                                json.getString("title"), json.getString("full_text")));
+                        String photoUrl = json.has("photo_url") ? json.getString("photo_url") : null;
+                        newsList.add(new News(photoUrl, json.getString("news_url"), json.getString("title"), json.getString("full_text")));
                     }
                     return new NewsAnswer(newsList);
                 }

@@ -1,8 +1,11 @@
 package ru.luvas.dk.client.utils;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +13,11 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.Collections;
 import java.util.List;
 
@@ -26,6 +34,8 @@ public class NewsRecyclerAdapter
 
     private final Context context;
     private final LayoutInflater layoutInflater;
+
+    private final String TAG = "NewsRecyclerAdapter";
 
     private List<News> newsList = Collections.emptyList();
 
@@ -44,10 +54,30 @@ public class NewsRecyclerAdapter
         return NewsViewHolder.newInstance(layoutInflater, parent);
     }
 
+
+    private Bitmap getImageBitmap(String url) {
+        Bitmap bm = null;
+        try {
+            URL aURL = new URL(url);
+            URLConnection conn = aURL.openConnection();
+            conn.connect();
+            InputStream is = conn.getInputStream();
+            BufferedInputStream bis = new BufferedInputStream(is);
+            bm = BitmapFactory.decodeStream(bis);
+            bis.close();
+            is.close();
+        } catch (IOException e) {
+            Log.e(TAG, "Error getting bitmap", e);
+        }
+        return bm;
+    }
+
     @Override
     public void onBindViewHolder(NewsViewHolder holder, int position) {
         final News news = newsList.get(position);
-        holder.newsImageView.setImageURI(Uri.parse(news.newsImagePath));
+        if (news.newsImagePath != null)
+            holder.newsImageView.setImageBitmap(getImageBitmap(news.newsImagePath));
+        //holder.newsImageView.setImageBitmap(Uri.parse(news.newsImagePath));
         holder.newsTitleView.setText(news.newsTitle);
         holder.newsArticleView.setText(news.newsArticle);
         holder.newsArticleView.setVisibility(View.GONE);

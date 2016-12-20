@@ -32,7 +32,7 @@ public class NewsFeedActivity extends AppCompatActivity {
     private TextView errorTextView;
     private ProgressBar progressBar;
 
-    private List<News> newsList;
+    private ArrayList<News> newsList;
 
     private static final String TAG = "NewsFeedActivity";
 
@@ -42,8 +42,10 @@ public class NewsFeedActivity extends AppCompatActivity {
     public static Intent createIntent(@NonNull Context context,
                                       @NonNull List<News> listOfNews) {
         final Intent intent = new Intent(context, NewsFeedActivity.class);
-        listOfNews = new ArrayList<>();
-        intent.putParcelableArrayListExtra(EXTRA_LIST_OF_NEWS, (ArrayList<News>) listOfNews);
+        Log.d(TAG, "createIntent, " + listOfNews.size() + " elements in List");
+        ArrayList<News> arrayListOfNews = new ArrayList(listOfNews);
+        Log.d(TAG, "createIntent, " + arrayListOfNews.size() + " elements in ArrayList");
+        intent.putParcelableArrayListExtra(EXTRA_LIST_OF_NEWS, arrayListOfNews);
         return intent;
     }
 
@@ -65,7 +67,9 @@ public class NewsFeedActivity extends AppCompatActivity {
         errorTextView.setVisibility(View.GONE);
         recyclerView.setVisibility(View.VISIBLE);
 
-        newsList = savedInstanceState.getParcelableArrayList(EXTRA_LIST_OF_NEWS);
+        Intent intent = getIntent();
+
+        newsList = intent.getParcelableArrayListExtra(EXTRA_LIST_OF_NEWS);
 
         if (adapter == null) {
             adapter = new NewsRecyclerAdapter(this);

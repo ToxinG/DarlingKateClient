@@ -161,9 +161,10 @@ public class TheOnlyActivity extends AppCompatActivity
                     params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
                     tts.speak(na.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
                 }else if(answer instanceof NewsAnswer) {
-                    Log.d(TAG, "Show news");
-
                     NewsAnswer na = (NewsAnswer) answer;
+
+                    Log.d(TAG, "Show " + na.getNewsList().size() + " news");
+
                     final Intent newsFeedIntent = NewsFeedActivity.createIntent(this, na.getNewsList());
                     startActivity(newsFeedIntent);
                 }

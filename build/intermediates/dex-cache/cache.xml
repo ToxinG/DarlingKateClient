@@ -3,165 +3,165 @@
 
     <item
         is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_30db21bcea942aa95bed97e05eea9983254e9255/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_278d0d01c962f0ad5d93de1c277ccc2af16b3dc4/classes.dex" />
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_3a92492e4cd10d1a7795c944c4ffea039ec66b95\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_245ddc9dc882762d9eeec04d3799c9bade3aea7d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2afa558f6e2581e50af901c10a726bfb3692569a">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8b8fe381520fe23063ba51f2b5e8adc47b3f3e95/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ad94bc74ed4d5c0d00b0d111998fd9ae79e35400/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_76e1ee5ba35ad039ceeadc4c27b59c2eb7b8b436/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7f5975e91d22dbdf4ab8d9e4cba10c9e30869c3d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_dc2be159c95a8647e1df5035d533358b40ab9b9b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_a91f47eba778b4f4a2cff14bffb0feb705b09915/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_277f27fadbb17a71a601065f49c4101e59a30ec9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_36ace106a5e8652ad94703dd70c07a5e99df1809/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_777e248870e30ae418dc5dac78f77a9dd69f6c61/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c716b856e14ffb9e775bc3b4ece084e7fc6e441">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4c2126d0fe855788bcd9551d2720cf98959b85ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_cf32a4c6b218a824f1b210c3d0e9845529614817/classes.dex" />
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_8ec0c3173ff1215907fe8e3b98868737ea466f93\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_f0876b6af58798c26d8af06b3d01620cc8ff2faf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/android-sdk-macosx_old/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_35be4d10afee72fc732a068a0e116afacf9ee9c4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_b2410404ec27dad98b9eac0a515881b7922e691f/classes.dex" />
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_19d04b7cff87f8dcf0d62155f011bce3ecf67200\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bda845c7d4d4311f24cf472534d1d1716b1c875c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e37327af593183ada4c1f7ec344287f3cc5039b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="32839590fdd46e0a02fcd782c59b0cdf7f334179">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e20d16cb68cdd3c5cdfc211893944e351cff5211\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/RinesThaix/Desktop/Coding/Android/DarlingKateClient/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_cab1ea237ff82933d3283d4b47ec4b089ff0e561/classes.dex" />
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7d62ccbd8f65be204101e34fee11432154cdbbde\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9b89a991b68a191dd488161b1cf213d7bcb17459\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_2089d2b0e831f05064c40d94dc2784b27f6ad58b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_cd43c32a90aee775fbf67cfd0bb8f62026c06248\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_77fdb3a3e27934c1e30d3679a028eca6124c078d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b21370abc45c777935e24eef84dca4745e1a37d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_995c5c5abd0b9083fd60c575f1af6a6bd5870e77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_5500071019864eb1a237be5037e69cf622aaf520\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_fc6fe46f1de7be6755b616cfb32f9ae4701cd1d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_502fb1ea8c148124e45590da6728e06b6f9439bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6087fe1475e26ea6adea5d1e782b4e6349261f48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_52cc2955d84149a8b26f8d2ddeaea63683924492\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_3ead00aabc9246d3c7d50ebe2376e973194943ab\classes.dex" />
     </item>
 
 </items>

@@ -46,7 +46,7 @@ public class MapsActivity extends Activity implements OnMapReadyCallback {
             Dialog dialog = api.getErrorDialog(this, isAvailable, 0);
             dialog.show();
         } else {
-            Toast.makeText(this, "Невозможно подключится к Play Servecies", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Невозможно  подключится к  Play Servecies", Toast.LENGTH_LONG).show();
         }
         return false;
     }

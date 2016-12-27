@@ -67,7 +67,9 @@ public class TheOnlyActivity extends AppCompatActivity
 
         textView = (TextView) findViewById(R.id.text_view);
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
+
         microView = findViewById(R.id.micro_button);
+
         microView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,7 +83,21 @@ public class TheOnlyActivity extends AppCompatActivity
         tts = new TextToSpeech(this, this);
 
         setDisplayState("Нажми и скажи что-нибудь (;");
+
+        Button mButton = (Button) findViewById(R.id.buttonMap);
+        mButton.setOnClickListener(mClick);
+
     }
+
+    private OnClickListener mClick = new OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
+            startActivity(intent);
+        }
+
+    };
 
     @Override
     public void onInit(int status) {
@@ -139,6 +155,7 @@ public class TheOnlyActivity extends AppCompatActivity
         if (recognizedText.equals("карта") || recognizedText.equals("Покажи карту")) {
             Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
             setDisplayState("");
+
             startActivity(intent);
         } else
             getSupportLoaderManager().restartLoader(0, null, this);

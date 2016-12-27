@@ -55,8 +55,8 @@ public class TheOnlyActivity extends AppCompatActivity
         lastInstance = this;
         setContentView(R.layout.main);
 
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
+       // StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+       // StrictMode.setThreadPolicy(policy);
 
 
         textView = (TextView) findViewById(R.id.text_view);

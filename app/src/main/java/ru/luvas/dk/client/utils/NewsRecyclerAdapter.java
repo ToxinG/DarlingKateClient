@@ -13,9 +13,12 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Collections;
@@ -59,13 +62,14 @@ public class NewsRecyclerAdapter
         Bitmap bm = null;
         try {
             URL aURL = new URL(url);
-            URLConnection conn = aURL.openConnection();
+            HttpURLConnection conn = (HttpURLConnection) aURL.openConnection();
             conn.connect();
             InputStream is = conn.getInputStream();
             BufferedInputStream bis = new BufferedInputStream(is);
             bm = BitmapFactory.decodeStream(bis);
             bis.close();
             is.close();
+            conn.disconnect();
         } catch (IOException e) {
             Log.e(TAG, "Error getting bitmap", e);
         }
@@ -75,9 +79,19 @@ public class NewsRecyclerAdapter
     @Override
     public void onBindViewHolder(NewsViewHolder holder, int position) {
         final News news = newsList.get(position);
-        if (news.newsImagePath != null)
-            holder.newsImageView.setImageBitmap(getImageBitmap(news.newsImagePath));
-        //holder.newsImageView.setImageBitmap(Uri.parse(news.newsImagePath));
+        if (news.newsImagePath != null) {
+           // holder.newsImageView.setImageBitmap(getImageBitmap(news.newsImagePath));
+            Glide.with(context)
+                    .load(news.newsImagePath)
+                    //.transform(new CircleTransform(context))
+                    .into(holder.newsImageView);
+        } else {
+            // make sure Glide doesn't load anything into this view until told otherwise
+            Glide.clear(holder.newsImageView);
+            holder.newsImageView.setImageDrawable(null);
+        }
+
+
         holder.newsTitleView.setText(news.newsTitle);
         holder.newsArticleView.setText(news.newsArticle);
         holder.newsArticleView.setVisibility(View.GONE);

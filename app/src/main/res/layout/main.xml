@@ -15,17 +15,23 @@
 
     <Button
         android:id="@+id/micro_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
         android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="128dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/speech_btn_normal"
-        android:maxHeight="98dp"
-        android:maxWidth="98dp"
-        android:minWidth="0dip"
+        android:minWidth="0dp"
         android:minHeight="0dp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:layout_above="@id/micro_button"/>
 
     <TextView
         android:id="@+id/text_view"
@@ -33,14 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_margin="16dp"
-        android:layout_above="@id/micro_button"
-        android:textColor="@android:color/black"/>
+        android:textColor="@android:color/black"
+        android:layout_above="@id/image_view"/>
 
-    <ImageView
-        android:id="@+id/mic"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="18dp"
-        android:hapticFeedbackEnabled="true"/>
 
 </RelativeLayout>

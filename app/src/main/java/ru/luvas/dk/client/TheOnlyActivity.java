@@ -15,10 +15,12 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 
@@ -46,7 +48,8 @@ public class TheOnlyActivity extends AppCompatActivity
 
     private TextView textView;
     private ProgressBar progressBar;
-    private View microView;
+    private Button microView;
+    private ImageView imageView;
 
     private TextToSpeech tts;
     public Muter muter;
@@ -67,10 +70,16 @@ public class TheOnlyActivity extends AppCompatActivity
 
         textView = (TextView) findViewById(R.id.text_view);
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
-        microView = findViewById(R.id.micro_button);
+        microView = (Button) findViewById(R.id.micro_button);
+        imageView = (ImageView) findViewById(R.id.image_view);
         microView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+                if (imageView.getVisibility() == View.VISIBLE) {
+                    imageView.setVisibility(View.GONE);
+                    Glide.clear(imageView);
+                    imageView.setImageDrawable(null);
+                }
                 recognizer.startListening();
             }
         });
@@ -80,7 +89,7 @@ public class TheOnlyActivity extends AppCompatActivity
 
         tts = new TextToSpeech(this, this);
 
-        setDisplayState("Нажми и скажи что-нибудь (;");
+        setDisplayState("Нажми и скажи что-нибудь (;", null);
     }
 
     @Override
@@ -138,7 +147,7 @@ public class TheOnlyActivity extends AppCompatActivity
         recognizedText = text;
         if (recognizedText.equals("карта") || recognizedText.equals("Покажи карту")) {
             Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
-            setDisplayState("");
+            setDisplayState("Нажми и скажи что-нибудь (;", null);
             startActivity(intent);
         } else
             getSupportLoaderManager().restartLoader(0, null, this);
@@ -167,7 +176,7 @@ public class TheOnlyActivity extends AppCompatActivity
                 } else if (answer instanceof SpeakAnswer) {
                     SpeakAnswer sa = (SpeakAnswer) answer;
                     Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
-                    setDisplayState(sa.getMessage());
+                    setDisplayState(sa.getMessage(), sa.getPhotoUrl());
                     HashMap<String, String> params = new HashMap<>();
                     params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
                     tts.speak(sa.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
@@ -183,7 +192,7 @@ public class TheOnlyActivity extends AppCompatActivity
                     Log.d(TAG, "Show " + na.getNewsList().size() + " news");
 
                     final Intent newsFeedIntent = NewsFeedActivity.createIntent(this, na.getNewsList());
-                    setDisplayState("");
+                    setDisplayState("Нажми и скажи что-нибудь (;", null);
                     startActivity(newsFeedIntent);
                 }
                 break;
@@ -212,14 +221,20 @@ public class TheOnlyActivity extends AppCompatActivity
         progressBar.setVisibility(View.VISIBLE);
     }
 
-    public void setDisplayState(String message) {
+    public void setDisplayState(String message, String url) {
         progressBar.setVisibility(View.GONE);
         textView.setVisibility(View.VISIBLE);
         textView.setText(message);
+        if (url != null) {
+            Glide.with(this)
+                    .load(url)
+                    .into(imageView);
+            imageView.setVisibility(View.VISIBLE);
+        }
     }
 
     public void setErrorState(String message) {
-        setDisplayState("Ошибка!");
+        setDisplayState("Ошибка!", null);
         Toast.makeText(this, "Ошибка: " + message, Toast.LENGTH_LONG).show();
     }
 

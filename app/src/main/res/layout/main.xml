@@ -26,4 +26,10 @@
         android:padding="18dp"
         android:hapticFeedbackEnabled="true"/>
 
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonMap" />
+
 </FrameLayout>

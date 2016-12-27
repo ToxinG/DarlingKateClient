@@ -1,5 +1,6 @@
 package ru.luvas.dk.client;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -12,9 +13,14 @@ import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
 
 import java.util.HashMap;
 import java.util.Locale;
@@ -49,20 +55,20 @@ public class TheOnlyActivity extends AppCompatActivity
     private String recognizedText = "привет";
     private String message = "", photo;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         lastInstance = this;
         setContentView(R.layout.main);
 
-       // StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-       // StrictMode.setThreadPolicy(policy);
-
+        // StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        // StrictMode.setThreadPolicy(policy);
 
         textView = (TextView) findViewById(R.id.text_view);
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
         microView = findViewById(R.id.mic);
-        microView.setOnClickListener(new View.OnClickListener() {
+        microView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 recognizer.startListening();
@@ -75,7 +81,21 @@ public class TheOnlyActivity extends AppCompatActivity
         tts = new TextToSpeech(this, this);
 
         setDisplayState("Нажми и скажи что-нибудь (;");
+
+        Button mButton = (Button) findViewById(R.id.buttonMap);
+        mButton.setOnClickListener(mClick);
+
     }
+
+    private OnClickListener mClick = new OnClickListener() {
+
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
+            startActivity(intent);
+        }
+
+    };
 
     @Override
     public void onInit(int status) {
@@ -130,7 +150,11 @@ public class TheOnlyActivity extends AppCompatActivity
 
     public void handleInput(String text) {
         recognizedText = text;
-        getSupportLoaderManager().restartLoader(0, null, this);
+        if (recognizedText.equals("карта")) {
+            Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
+            startActivity(intent);
+        } else
+            getSupportLoaderManager().restartLoader(0, null, this);
     }
 
     @Override
@@ -225,5 +249,6 @@ public class TheOnlyActivity extends AppCompatActivity
                     recognizer.askForPermissions(this);
         }
     }
+
 
 }

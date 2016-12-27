@@ -1,9 +1,11 @@
 package ru.luvas.dk.client;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.StrictMode;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.UtteranceProgressListener;
 import android.support.v4.app.LoaderManager;
@@ -11,9 +13,14 @@ import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
 
 import java.util.HashMap;
 import java.util.Locale;
@@ -48,16 +55,20 @@ public class TheOnlyActivity extends AppCompatActivity
     private String recognizedText = "привет";
     private String message = "", photo;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         lastInstance = this;
         setContentView(R.layout.main);
 
+        // StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        // StrictMode.setThreadPolicy(policy);
+
         textView = (TextView) findViewById(R.id.text_view);
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
-        microView = findViewById(R.id.mic);
-        microView.setOnClickListener(new View.OnClickListener() {
+        microView = findViewById(R.id.micro_button);
+        microView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 recognizer.startListening();
@@ -92,13 +103,14 @@ public class TheOnlyActivity extends AppCompatActivity
 
                 @Override
                 public void onDone(String s) {
-                    if(s.equals(TAG)) {}
-                        //post(1000l, new Runnable() {
-                         //   @Override
-                          //  public void run() {
-                           //     recognizer.startListening();
-                            //}
-                        //});
+                    if (s.equals(TAG)) {
+                    }
+                    //post(1000l, new Runnable() {
+                    //   @Override
+                    //  public void run() {
+                    //     recognizer.startListening();
+                    //}
+                    //});
                 }
 
                 @Override
@@ -113,7 +125,7 @@ public class TheOnlyActivity extends AppCompatActivity
 
     @Override
     public void onDestroy() {
-        if(tts != null) {
+        if (tts != null) {
             tts.stop();
             tts.shutdown();
         }
@@ -124,14 +136,19 @@ public class TheOnlyActivity extends AppCompatActivity
 
     public void handleInput(String text) {
         recognizedText = text;
-        getSupportLoaderManager().restartLoader(0, null, this);
+        if (recognizedText.equals("карта") || recognizedText.equals("Покажи карту")) {
+            Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
+            setDisplayState("");
+            startActivity(intent);
+        } else
+            getSupportLoaderManager().restartLoader(0, null, this);
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putString("message", message);
-        if(photo != null)
+        if (photo != null)
             outState.putString("photo", photo);
     }
 
@@ -142,34 +159,36 @@ public class TheOnlyActivity extends AppCompatActivity
 
     @Override
     public void onLoadFinished(Loader<LoadResult<? extends Answer>> loader, LoadResult<? extends Answer> data) {
-        switch(data.getResultType()) {
+        switch (data.getResultType()) {
             case OK: {
                 Answer answer = data.getData();
-                if(answer instanceof ErrorAnswer) {
+                if (answer instanceof ErrorAnswer) {
                     setErrorState(((ErrorAnswer) answer).getText());
-                }else if(answer instanceof SpeakAnswer) {
+                } else if (answer instanceof SpeakAnswer) {
                     SpeakAnswer sa = (SpeakAnswer) answer;
                     Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
                     setDisplayState(sa.getMessage());
                     HashMap<String, String> params = new HashMap<>();
                     params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
                     tts.speak(sa.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
-                }else if(answer instanceof NotifyAnswer) {
+                } else if (answer instanceof NotifyAnswer) {
                     NotifyAnswer na = (NotifyAnswer) answer;
                     Toast.makeText(this, na.getMessage(), Toast.LENGTH_SHORT).show();
                     HashMap<String, String> params = new HashMap<>();
                     params.put(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, TAG);
                     tts.speak(na.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
-                }else if(answer instanceof NewsAnswer) {
+                } else if (answer instanceof NewsAnswer) {
                     NewsAnswer na = (NewsAnswer) answer;
 
                     Log.d(TAG, "Show " + na.getNewsList().size() + " news");
 
                     final Intent newsFeedIntent = NewsFeedActivity.createIntent(this, na.getNewsList());
+                    setDisplayState("");
                     startActivity(newsFeedIntent);
                 }
                 break;
-            }case NO_INTERNET:
+            }
+            case NO_INTERNET:
                 setErrorState("Что-то не так с Вашим интернет-соединением.");
                 break;
             case FAILURE:
@@ -210,13 +229,14 @@ public class TheOnlyActivity extends AppCompatActivity
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
-        switch(requestCode) {
+        switch (requestCode) {
             case Recognizer.PERMISSIONS_REQUEST_ID:
-                if(grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
                     recognizer.preload(this);
                 else
                     recognizer.askForPermissions(this);
         }
     }
+
 
 }

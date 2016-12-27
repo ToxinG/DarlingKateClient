@@ -32,7 +32,7 @@ public class NewsFeedActivity extends AppCompatActivity {
     private TextView errorTextView;
     private ProgressBar progressBar;
 
-    private ArrayList<News> newsList;
+    private ArrayList<News> newsArrayList;
 
     private static final String TAG = "NewsFeedActivity";
 
@@ -69,23 +69,18 @@ public class NewsFeedActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        newsList = intent.getParcelableArrayListExtra(EXTRA_LIST_OF_NEWS);
+        newsArrayList = intent.getParcelableArrayListExtra(EXTRA_LIST_OF_NEWS);
 
         if (adapter == null) {
             adapter = new NewsRecyclerAdapter(this);
             recyclerView.setAdapter(adapter);
         }
-        adapter.setNewsList(newsList);
+        adapter.setNewsList(newsArrayList);
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        //TODO ?
-
     }
 
-    /*TODO
-     * Error notification
-     */
 }

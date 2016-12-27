@@ -1,29 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
-
-    <TextView
-        android:id="@+id/text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="@android:color/black"/>
+    android:background="@drawable/main_background">
 
     <ProgressBar
         android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:indeterminate="true"
-        android:layout_gravity="center"
-        />
+        android:layout_centerInParent="true" />
 
-    <ImageView android:id="@+id/mic"
+    <Button
+        android:id="@+id/micro_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="128dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/speech_btn_normal"
+        android:maxHeight="98dp"
+        android:maxWidth="98dp"
+        android:minWidth="0dip"
+        android:minHeight="0dp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:layout_above="@id/micro_button"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/mic"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="18dp"
         android:hapticFeedbackEnabled="true"/>
 
-</FrameLayout>
+</RelativeLayout>

@@ -21,21 +21,138 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_19d04b7cff87f8dcf0d62155f011bce3ecf67200\classes.dex" />
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_3aab9c5f058d3dd2549ee5dea0ee683e018a7fd1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="bda845c7d4d4311f24cf472534d1d1716b1c875c">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e37327af593183ada4c1f7ec344287f3cc5039b9\classes.dex" />
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_dbbe59bc8d710cb1141108dc90fae61f62dc51bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_b19d3c017d98e1dd7e627a2b03d746eb00992ce3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_6789d3aa215691893aac5b1d5d2784362747901f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_147ba56badebc2853dd81d5dacd7c9ab8a86ebb0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_1a4bd437295cb5c7dcf5ce0771f6b40d5d1f5b13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_938227c836b3435fc73acb45cadaefd4b5124bf2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_40b75216271f7e1e4eefe06429794d661332881a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_ad9b3c2fe59db602be729692f732a07a1f0e151f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_924db8ed848d2726fb5f44a7dd646dc2f2fef252\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_597c829c8fce78e5273e75d32b0b208eba126b0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_6de4bc35a6636cca87522651b0b3915609ea6fc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_d447d7970a4f65c893ba518f10e52cf15a085c71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_5788e30bdddedbed1efff55ab7a59584aca3a167\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_97d50916f4d4fed4dc24eb97126e81cb19752fb6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -43,26 +160,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="32839590fdd46e0a02fcd782c59b0cdf7f334179">
+        sha1="0d465e08ef15582a670f3baf23eaf605372f53b8">
         <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e20d16cb68cdd3c5cdfc211893944e351cff5211\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7d62ccbd8f65be204101e34fee11432154cdbbde\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9b89a991b68a191dd488161b1cf213d7bcb17459\classes.dex" />
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_42e798f28fd40c2697961510584d8e48d15a6645\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,12 +183,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_412448abb35e2034dd821be6d105209f1ba8ab22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_8cec8030bfee4011308cf8bf66909091a8135559\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_cd43c32a90aee775fbf67cfd0bb8f62026c06248\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_f0c36e710fc216fd76d22e48191331cf4178a82a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,39 +228,75 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b21370abc45c777935e24eef84dca4745e1a37d9\classes.dex" />
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_c43f7b91693c6a8ec592f38f8878232f9a46392c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_995c5c5abd0b9083fd60c575f1af6a6bd5870e77\classes.dex" />
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_69c6ee419512ca7d738a0f7532ad2d59032264ac\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_5500071019864eb1a237be5037e69cf622aaf520\classes.dex" />
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_95393ca554fbcce3cc0111984b2a1e04d93fb1a8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_fc6fe46f1de7be6755b616cfb32f9ae4701cd1d1\classes.dex" />
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_200ea622d156c868af79393821dacf1070897bc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_6d1c935ec2f7fd1a51d89d4c37d5021ec387f73f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_7b099e65048ecd1704b38a500fc69988a4bb5ad8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_da40268006cdcacb9e7c34cabad71445aa0a3291\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_b0a2c7e57188351dabe34a4cf5919e864ebfc049\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -135,6 +306,15 @@
         revision="24.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
         <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_502fb1ea8c148124e45590da6728e06b6f9439bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_f55e1f1ccb499bfb41a6d62c8caaeda38d246d9c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,12 +336,300 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_c49b9398f0e49a075d0b75d29e41a14896605012\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Anton\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_3ead00aabc9246d3c7d50ebe2376e973194943ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_1b7219ffeb3edff85ea5b41d4329440038bdd078\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_bfb65a4a5ca2ae560f1354cf262ed487a2cb0749\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_1b52523238417860f2ce3a8f108697e3b697225d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_bbe472c705712ef52cf86e4654563194471b66c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_7b9b599becf8e972c4ec188c3afe34101689b6c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_19d04b7cff87f8dcf0d62155f011bce3ecf67200\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_d07f5646eb551d749987d8ae65a178ef66baf239\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_d51658a5bfd75aa45628456c034cd937fd0410f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_0b70714c5ca36280430f978819130d6815bd4f2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_41d7716252b8b6372bfde6764a9d069504b2d272\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_623aa009e231b9b26f97f33b64502d23c594f986\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_2f8a9898ed5692eda7d636cfeb41cdaf2abc6267\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bda845c7d4d4311f24cf472534d1d1716b1c875c">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e37327af593183ada4c1f7ec344287f3cc5039b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_f46f63196ce5d8e4e458a1f6af50cf2ffef61dab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7d62ccbd8f65be204101e34fee11432154cdbbde\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9b89a991b68a191dd488161b1cf213d7bcb17459\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_c7c77a1549e1e6dc0c0e2b31a6636313370b2e2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b21370abc45c777935e24eef84dca4745e1a37d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_79c2f786f9442f52e907cd6597a42bf20b39f8a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_995c5c5abd0b9083fd60c575f1af6a6bd5870e77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_94f8314b9be3474704100564b713f683a0a16e74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_5500071019864eb1a237be5037e69cf622aaf520\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_c53cf1658e51b8ea7d46f34079924381e016b47f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_fc6fe46f1de7be6755b616cfb32f9ae4701cd1d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_cfdad61e05e86885ce97f7e7fc0aa90926ce5122\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_5f58d1e39168b5ef4c17ba7c4b75abea8e313f6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_d6fd380111c57d533e8ba5c896c8b2430b9366a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_286860607e6f272f13103d15716b1339784e14c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_cbd299b91b691517d555ad75a8ef0f3f7215f7d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_a4b8eeed50b8449458320d351999f0b2fc8d94cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_a28207fbdfddec4fec14ee74ce6ee945ee420083\classes.dex" />
     </item>
 
 </items>

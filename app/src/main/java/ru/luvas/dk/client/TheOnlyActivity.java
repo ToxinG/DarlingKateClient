@@ -147,6 +147,7 @@ public class TheOnlyActivity extends AppCompatActivity
         recognizedText = text;
         if (recognizedText.equals("карта") || recognizedText.equals("карты") || recognizedText.equals("Покажи карту")) {
             Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
+            Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
             setDisplayState("Нажми и скажи что-нибудь (;", null);
             startActivity(intent);
         } else
@@ -188,7 +189,7 @@ public class TheOnlyActivity extends AppCompatActivity
                     tts.speak(na.getSpeech(), TextToSpeech.QUEUE_FLUSH, params);
                 } else if (answer instanceof NewsAnswer) {
                     NewsAnswer na = (NewsAnswer) answer;
-
+                    Toast.makeText(this, recognizedText, Toast.LENGTH_SHORT).show();
                     Log.d(TAG, "Show " + na.getNewsList().size() + " news");
 
                     final Intent newsFeedIntent = NewsFeedActivity.createIntent(this, na.getNewsList());

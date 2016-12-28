@@ -80,7 +80,7 @@ public class NewsRecyclerAdapter
     public void onBindViewHolder(NewsViewHolder holder, int position) {
         final News news = newsList.get(position);
         if (news.newsImagePath != null) {
-            // holder.newsImageView.setImageBitmap(getImageBitmap(news.newsImagePath));
+
             Glide.with(context)
                     .load(news.newsImagePath)
                     //.transform(new CircleTransform(context))

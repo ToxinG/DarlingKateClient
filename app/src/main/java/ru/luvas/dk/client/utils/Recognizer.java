@@ -19,8 +19,10 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
+import java.io.IOException;
 import java.lang.ref.WeakReference;
 
+import ru.luvas.dk.client.MapsActivity;
 import ru.luvas.dk.client.TheOnlyActivity;
 
 /**
@@ -35,14 +37,17 @@ public class Recognizer {
     protected SpeechRecognizer sr;
     protected Intent srIntent;
     protected final Messenger messenger = new Messenger(new IncomingHandler(this));
+    protected Activity mActivity;
 
     protected boolean listening;
     protected volatile boolean countDownOn;
+
 
     static final int FLAG_START_LISTENING = 1;
     static final int FLAG_STOP_LISTENING = 2;
 
     public Recognizer(Activity activity) {
+        mActivity = activity;
         if (ContextCompat.checkSelfPermission(activity, Manifest.permission.RECORD_AUDIO)
                 != PackageManager.PERMISSION_GRANTED) {
             askForPermissions(activity);
@@ -74,6 +79,7 @@ public class Recognizer {
         } catch (RemoteException e) {
             e.printStackTrace();
         }
+
         TheOnlyActivity.lastInstance.setListeningState();
     }
 
@@ -194,7 +200,15 @@ public class Recognizer {
         public void onResults(Bundle results) {
             TheOnlyActivity.lastInstance.muter.unmute();
             String text = results.getStringArrayList("results_recognition").get(0);
-            TheOnlyActivity.lastInstance.handleInput(text);
+            if (mActivity instanceof TheOnlyActivity){
+                TheOnlyActivity.lastInstance.handleInput(text);
+            } else {
+                try {
+                    MapsActivity.lastInstance.handleInput(text);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
         }
 
         @Override

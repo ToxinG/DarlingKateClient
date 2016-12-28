@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Darling Kate</string>
+    <string name="speak">Speak</string>
+    <string name="show">Show</string>
 </resources>

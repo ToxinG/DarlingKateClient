@@ -160,7 +160,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="32f0f6de0f6cfaf2bc1a0c353b97f5ab336d7584">
+        sha1="531cb82b542f7d0134f819a3378b4a43b0d16a2c">
         <dex dex="C:\Users\Anton\AndroidStudioProjects\DarlingKateClient\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e20d16cb68cdd3c5cdfc211893944e351cff5211\classes.dex" />
     </item>
     <item

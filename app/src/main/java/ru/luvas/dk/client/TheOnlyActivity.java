@@ -145,7 +145,7 @@ public class TheOnlyActivity extends AppCompatActivity
 
     public void handleInput(String text) {
         recognizedText = text;
-        if (recognizedText.equals("карта") || recognizedText.equals("Покажи карту")) {
+        if (recognizedText.equals("карта") || recognizedText.equals("карты") || recognizedText.equals("Покажи карту")) {
             Intent intent = new Intent(TheOnlyActivity.this, MapsActivity.class);
             setDisplayState("Нажми и скажи что-нибудь (;", null);
             startActivity(intent);
